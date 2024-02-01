@@ -1,0 +1,473 @@
+{% extends 'main.html' %}
+
+{% block content %}
+  <!-- Start Main Slider -->
+<section class="main-slider style1">
+  <div class="slider-box">
+      <!-- Banner Carousel -->
+      <div class="banner-carousel owl-theme owl-carousel">
+          <!-- Slide -->
+          <div class="slide">
+              <div class="image-layer" style="background-image:url(static/images/slides/slide-v1-1.jpg)">
+              </div>
+              <div class="auto-container">
+                  <div class="content">
+                      <div class="sub-title">
+                          <h3>Your Partner in Sustainable Waste Services</h3>
+                      </div>
+                      <div class="big-title">
+                          <h2>
+                              Mixed<br>Waste <span>Pickup</span><br> such as food scraps, paper, cardboard, metal, and plastic.
+                          </h2>
+                      </div>
+                      <div class="btns-box">
+                          <a class="btn-one" href="#">
+                              <span class="txt">
+                                  discover more<i class="icon-refresh arrow"></i>
+                              </span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Slide -->
+          <div class="slide">
+              <div class="image-layer" style="background-image:url(static/images/slides/MWtrYJxg.jpg)">
+              </div>
+              <div class="auto-container">
+                  <div class="content">
+                      <div class="sub-title">
+                          <h3>Your Partner in Sustainable Waste Services</h3>
+                      </div>
+                      <div class="big-title">
+                          <h2>
+                              Waste Management.<br> Dumpster Rentals.<br> Garbage Pickup.
+                          </h2>
+                      </div>
+                      <div class="btns-box">
+                          <a class="btn-one" href="about.html">
+                              <span class="txt">
+                                  discover more<i class="icon-refresh arrow"></i>
+                              </span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Slide -->
+          <div class="slide">
+              <div class="image-layer" style="background-image:url(static/images/slides/garbage-bags-cred-Kayode-Crown-web-1024x682.jpg)">
+              </div>
+              <div class="auto-container">
+                  <div class="content">
+                      <div class="sub-title">
+                          <h3>Your Partner in Sustainable Waste Services</h3>
+                      </div>
+                      <div class="big-title">
+                          <h2>
+                              Door<br> to <span>Door</span><br> Home Trash Pickup
+                          </h2>
+                      </div>
+                      <div class="btns-box">
+                          <a class="btn-one" href="{% url 'aboutpage' %}">
+                              <span class="txt">
+                                  discover more<i class="icon-refresh arrow"></i>
+                              </span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</section>
+<!-- End Main Slider -->
+
+<section class="features-style1-area">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12">
+              <div class="features-style1__content">
+                  <ul>
+                      <li>
+                          <div class="single-features-style1">
+                              <div class="icon-holder">
+                                  <div class="box"></div>
+                                  <span class="icon-dustbin"></span>
+                              </div>
+                              <div class="text-holder">
+                                  <h3><a href="">Dumpster Sizes</a></h3>
+                                  <p>Pick Waste offers a variety of dumpster sizes to meet the needs of its clients. Here are some of the most common sizes:
+                                    2 yard, 4 yard, 6 yard, 8 yard and 10 yard  
+                                  </p>
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="single-features-style1">
+                              <div class="icon-holder">
+                                  <div class="box"></div>
+                                  <span class="icon-garbage-can"></span>
+                              </div>
+                              <div class="text-holder">
+                                  <h3><a href="">Waste Collection</a></h3>
+                                  <p>Pick Waste offers waste collection services to both residential and commercial customers. This service involves collecting garbage and recyclable materials from homes and businesses on a regular basis.</p>
+                              </div>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="single-features-style1">
+                              <div class="icon-holder">
+                                  <div class="box"></div>
+                                  <span class="icon-calendar"></span>
+                              </div>
+                              <div class="text-holder">
+                                  <h3><a href="">Pickup Schedule</a></h3>
+                                  <p>Pick Waste offers a pickup schedule for its waste collection services.</p>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--End Features Style1 Area-->
+
+<!--Start Service Style1 Area-->
+<section class="service-style1-area">
+  <div class="service-style1__bg"
+      style="background-image: url(/static/images/parallax-background/service-style1.jpg);"></div>
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12">
+
+              <div class="service-style1__top">
+                  <div class="service-style1__top-title">
+                      <div class="sec-title sec-title--style2">
+                          <div class="sub-title">
+                              <h3>Our Services</h3>
+                          </div>
+                          <h2>Waste Services</h2>
+                      </div>
+                      <div class="text">
+                          <p>If you are looking for a waste service provider that can meet your specific needs, Pick Waste is a good option to consider.</p>
+                      </div>
+                  </div>
+                  <div class="service-style1__top-button">
+                      <a class="btn-one" href="{% url 'contact' %}">
+                          <span class="txt">
+                              book now<i class="icon-refresh arrow"></i>
+                          </span>
+                      </a>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+      <div class="row text-right-rtl">
+          <!--Start Single Service Style1-->
+          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+              data-wow-duration="1500ms">
+              <div class="single-service-style1">
+                  <div class="inner">
+                      <div class="round-box"></div>
+                      <div class="icon">
+                          <span class="icon-garbage-bin"></span>
+                      </div>
+                      <div class="text">
+                          <h3>Garbage<br> Pickup</h3>
+                          <p>We collects garbage from homes and businesses on a regular basis. This is a convenient and affordable service that saves customers the time and hassle of having to take their own waste to a disposal facility.</p>
+                      </div>
+                  </div>
+                  <div class="btn-box">
+                      <a href=""><span class="icon-right-arrow"></span></a>
+                  </div>
+              </div>
+          </div>
+          <!--End Single Service Style1-->
+          <!--Start Single Service Style1-->
+          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+              data-wow-duration="1500ms">
+              <div class="single-service-style1">
+                  <div class="inner">
+                      <div class="round-box"></div>
+                      <div class="icon">
+                          <span class="icon-dustbin-1"></span>
+                      </div>
+                      <div class="text">
+                          <h3>Dumpster<br> Rental</h3>
+                          <p>We rents out dumpsters to businesses and individuals for short-term or long-term use. This is a good option for customers who have a large amount of waste to dispose of</p>
+                      </div>
+                  </div>
+                  <div class="btn-box">
+                      <a href=""><span class="icon-right-arrow"></span></a>
+                  </div>
+              </div>
+          </div>
+          <!--End Single Service Style1-->
+          <!--Start Single Service Style1-->
+          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+              data-wow-duration="1500ms">
+              <div class="single-service-style1">
+                  <div class="inner">
+                      <div class="round-box"></div>
+                      <div class="icon">
+                          <span class="icon-portable-toilet"></span>
+                      </div>
+                      <div class="text">
+                          <h3>Portable<br> Toilets</h3>
+                          <p>We rents out portable toilets for events and construction sites. This is a convenient and affordable way to provide sanitary facilities for guests and workers.</p>
+                      </div>
+                  </div>
+                  <div class="btn-box">
+                      <a href=""><span class="icon-right-arrow"></span></a>
+                  </div>
+              </div>
+          </div>
+          <!--End Single Service Style1-->
+          <!--Start Single Service Style1-->
+          <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="00ms"
+              data-wow-duration="1500ms">
+              <div class="single-service-style1">
+                  <div class="inner">
+                      <div class="round-box"></div>
+                      <div class="icon">
+                          <span class="icon-recycle"></span>
+                      </div>
+                      <div class="text">
+                          <h3>Residential<br> Recycling</h3>
+                          <p>We collects garbage and recyclable materials from homes on a regular basis. This is a convenient and affordable service that helps homeowners to keep their homes clean and tidy.</p>
+                      </div>
+                  </div>
+                  <div class="btn-box">
+                      <a href=""><span class="icon-right-arrow"></span></a>
+                  </div>
+              </div>
+          </div>
+          <!--End Single Service Style1-->
+
+      </div>
+  </div>
+</section>
+<!--End Service Style1 Area-->
+
+
+<!--Start Partner Area-->
+<section class="partner-area">
+  <div class="container">
+    <h3 class="text-center"> Our Partners </h3>
+      <div class="brand-content">
+          <div class="inner">
+              <ul class="partner-box partner-carousel owl-carousel owl-theme owl-dot-style1 rtl-carousel">
+                  <!--Start Single Partner Logo Box-->
+                  <li class="single-partner-logo-box">
+                      <a href="#"><img src="static/images/brand/World_Health_Organization_Logo.svg.png" alt="Awesome Image"></a>
+                  </li>
+                  <!--End Single Partner Logo Box-->
+                  <!--Start Single Partner Logo Box-->
+                  <li class="single-partner-logo-box">
+                      <a href="#"><img src="static/images/brand/jccllloogo.png" alt="Awesome Image"></a>
+                  </li>
+                  <!--End Single Partner Logo Box-->
+                  <!--Start Single Partner Logo Box-->
+                  <li class="single-partner-logo-box">
+                      <a href="#"><img src="static/images/brand/download.png" alt="Awesome Image"></a>
+                  </li>
+                  <!--End Single Partner Logo Box-->
+                  <!--Start Single Partner Logo Box-->
+                  <li class="single-partner-logo-box">
+                      <a href="#"><img src="static/images/brand/ORqK8Cq6_400x400.jpg" alt="Awesome Image"></a>
+                  </li>
+                  <!--End Single Partner Logo Box-->
+              </ul>
+          </div>
+      </div>
+  </div>
+</section>
+<!--End Partner Area-->
+
+        <!--Start Google Map Style1 Area-->
+<section class="google-map-style1-area">
+  <div class="auto-container">
+    <div class="home1-page-map-outer">
+      <!--Map Canvas-->
+      <div class="map-canvas" data-zoom="12" data-lat="4.859363" data-lng="31.571251"
+                      data-type="roadmap" data-hue="#ffc400"
+                      data-icon-path="static/images/icon/"
+                      data-content="Juba 3000, South Sudan">
+      </div>
+    </div>
+  </div>
+</section>
+      <!--End Google Map Style1 Area-->
+
+
+
+  <!--Start slogan area-->
+<section class="slogan-area">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-xl-5 col-lg-12">
+              <div class="phone-number-box2">
+                  <div class="icon">
+                      <span class="icon-phone-ringing"></span>
+                  </div>
+                  <div class="phone">
+                      <p>Have any questions?</p>
+                      <a href="tel:123456789">+211 925-413-115</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-12">
+              <div class="slogan-text-box">
+                  <p>We are more than just Waste Management</p>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-12">
+              <div class="slogan-btn-box">
+                  <a class="btn-one" href="#">
+                      <span class="txt">
+                          discover more<i class="icon-refresh arrow"></i>
+                      </span>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--End slogan area-->
+
+<section class="choose-style1-area">
+  <div class="container">
+      <div class="row">
+
+        <div class="col-xl-4">
+            <div class="choose-style1__title-box">
+                <div class="sec-title sec-title--style2">
+                    <div class="sub-title">
+                        <h3>Why Choose us</h3>
+                    </div>
+                    <h2>We are committed <br> to protecting the<br> environment.</h2>
+                </div>
+                <div class="btn-box">
+                    <a class="btn-one" href="#">
+                        <span class="txt">
+                            book now<i class="icon-refresh arrow"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-8">
+            <div class="video-gallery-style2">
+                <div class="video-gallery-style2__bg"
+                    style="background-image: url(/static/images/resources/landfill.jpg);">
+                </div>
+                <div class="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                    <a class="video-popup" title="Video Gallery"
+                        href="#">
+                        <span class="icon-play-buttton"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+      </div>
+  </div>
+</section>
+<!--End Choose Style1 Area-->
+
+<!--Start Fact Counter Area-->
+<section class="fact-counter-area">
+    <div class="fact-counter-area-bg"
+        style="background-image: url(/static/images/parallax-background/service-style1.jpg);"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <ul class="fact-counter-box">
+                    <!--Start Single Fact Counter-->
+                    <li class="single-fact-counter">
+                        <div class="inner">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="3000" data-stop="8">0</span>
+                                <span class="icon-plus-sign plus"></span>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h3>Industries Served</h3>
+                            <p>Pick Waste serves a wide range of industries, including: Residential,
+                                Commercial,
+                                Industrial,
+                                Construction,
+                                Hospitality,
+                                Healthcare,
+                                Education and
+                                Government</p>
+                        </div>
+                    </li>
+                    <!--End Single Fact Counter-->
+                    <!--Start Single Fact Counter-->
+                    <li class="single-fact-counter">
+                        <div class="inner">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="3000" data-stop="50">0</span>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h3>Professional Workers</h3>
+                            <p>Team of experienced and professional workers who are committed to providing their customers with the best possible service.</p>
+                        </div>
+                    </li>
+                    <!--End Single Fact Counter-->
+                    <!--Start Single Fact Counter-->
+                    <li class="single-fact-counter">
+                        <div class="inner">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="3000" data-stop="5">0</span>
+                                <span class="icon-plus-sign plus"></span>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h3>Waste Mangements</h3>
+                            <p>We offers a variety of waste management services, including: Garbage pickup,
+                                Dumpster rental,
+                                Portable toilets,
+                                Hazardous waste disposal and
+                                Special event waste management.</p>
+                        </div>
+                    </li>
+                    <!--End Single Fact Counter-->
+                    <!--Start Single Fact Counter-->
+                    <li class="single-fact-counter">
+                        <div class="inner">
+                            <div class="count-outer count-box">
+                                <span class="count-text" data-speed="3000" data-stop="30">0</span>
+                                <span class="k">k</span>
+                            </div>
+                        </div>
+                        <div class="title">
+                            <h3>Customers are Happy</h3>
+                            <p>Pick Waste has a long list of happy customers who appreciate their reliability, convenience, affordability, and commitment to sustainability.
+                            </p>
+                        </div>
+                    </li>
+                    <!--End Single Fact Counter-->
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+        <!--End Fact Counter Area-->
+
+
+{% endblock %}
+
+
