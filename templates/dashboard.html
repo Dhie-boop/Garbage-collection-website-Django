@@ -1,0 +1,72 @@
+{% extends 'main-dashboard.html' %}
+
+{% block content %}
+
+<br> <br> <br> <br>
+
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <table class="table">
+            <tr>
+              <th>#</th>
+              <th>Area</th>
+              <th>Street</th>
+              <th>City</th>
+              <th>Driver Email</th>
+              <th>Loadtype</th>
+              <th>Cycle Period</th>
+              <th>Best Route</th>
+            </tr>
+
+            {% for data in dustbin %}
+              <tr>
+                <td>{{ data.id }}</td>
+                <td>{{ data.area }}</td>
+                <td>{{ data.street }}</td>
+                <td>{{ data.city }}</td>
+                <td>{{ data.assign_driver_email }}</td>
+                <td>{{ data.loadtype }}</td>
+                <td>{{ data.cycle_period }}</td>
+                <td>{{ data.best_route }}</td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Area</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>Driver Email</th>
+        <th>Loadtype</th>
+        <th>Cycle Period</th>
+        <th>Best Route</th>
+      </tr>
+    </thead>
+
+      {% for i in dustbin %}
+        <tr>
+          <td>{{ i.id }}</td>
+          <td>{{ i.area }}</td>
+          <td>{{ i.street }}</td>
+          <td>{{ i.city }}</td>
+          <td>{{ i.assign_driver_email }}</td>
+          <td>{{ i.loadtype }}</td>
+          <td>{{ i.cycle_period }}</td>
+          <td>{{ i.best_route }}</td>
+        </tr>
+      {% endfor %}
+  </table>
+</div>
+{% endblock %}
